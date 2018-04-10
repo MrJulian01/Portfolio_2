@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(26, 26, 26, 0.7);
+  position: absolute;
+  top: 0;
+}
+
+nav a {
+  padding: 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: rgba(99, 159, 255, 0.5);
+}
+
+nav i {
+  color: white;
+}
+
+header {
+  background-image: url("../img/banner4.jpg");
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(99, 159, 255, 0.9);
+  background-blend-mode: multiply;
+}
+
+header h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+hr {
+  margin-top: 20px;
+  border: 1px solid rgba(211, 211, 211, 0.2);
+  background-color: rgba(211, 211, 211, 0.2);
+  width: 50px;
+}
+
+form {
+  width: 650px;
+  margin: 0px auto;
+}
+
+#form_section {
+  width: 100%;
+  margin: 0px auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#form_section h2 {
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+input[type=name], input[type=email] {
+  width: 280px;
+}
+
+input[type=phone] {
+  width: 600px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  margin: 10px;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 2px;
+}
+
+textarea {
+  width: 600px;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  margin: 10px;
+  resize: none;
+  border-radius: 2px;
+}
+
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+input[type=submit] {
+  background-color: rgb(99, 159, 255);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+  border-radius: 2px;
+}

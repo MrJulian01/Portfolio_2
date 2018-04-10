@@ -1,13 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../img/banner2.jpg");
-  padding-top: 250px;
-  padding-bottom: 250px;
-  background-position: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
   background-repeat: no-repeat;
+  background-image: url("../img/banner5.jpg");
+  background-position: center;
   background-size: cover;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(99, 159, 255, 0.9);
   background-blend-mode: multiply;
 }
 
@@ -26,15 +26,11 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #ef4545;
+  background-color: rgba(99, 159, 255, 0.5);
 }
 
 nav i {
   color: white;
-}
-
-header {
-
 }
 
 header img {
